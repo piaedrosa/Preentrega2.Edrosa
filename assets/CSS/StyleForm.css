@@ -1,0 +1,188 @@
+*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family:"Poppins";
+    src: url(../Fonts/Poppins-Regular.ttf);
+    font-weight:400;
+  }
+  
+  @font-face {
+    font-family:"Poppins";
+    src: url(../Fonts/Poppins-Bold.ttf);
+    font-weight:700;
+  }
+  
+  @font-face {
+    font-family:"Poppins";
+    src: url(../Fonts/Poppins-ExtraBold.ttf);
+    font-weight:800;
+  }
+  
+  a:link {
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: palevioletred
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(237, 240, 241);
+    background-color: transparent;
+    text-decoration:underline;
+  }
+  a:focus {
+      outline: 2px solid #5f11ad
+  }
+  
+  header{
+    background-color: #07090a;
+    text-align: right;
+    height: 60px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: aliceblue;
+  }
+  
+  span.logo img, div.icon img{
+    height: 50px;
+    width: 50px;
+    margin-left:5px;
+    margin-top: 5px;
+   float: left;
+  }
+  
+  span.nav ul, div.icon ul{
+    list-style-type:none;
+  }
+  
+  span.nav li, div.icon li{
+    margin-top: 10px;
+    margin-right: 10px;
+    display:inline-block
+  }
+  main{
+    background-color: #07090a;
+    background-image: linear-gradient(#008bc7c1, rgba(174, 135, 181, 0.215)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    border-top: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+    color: aliceblue;
+   }
+  
+  h1{
+    font-family: poppins;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+ 
+
+ 
+
+  main div.form div.logo img{
+    height: 75px;
+    width: 75px;
+    margin-left: 200px;
+  }
+
+
+
+
+
+
+
+
+  footer{
+    background-color: #07090a;
+    text-align: center; 
+  }
+  
+  div.icon img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .form {
+    height: 565px; 
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+    
+  div.registro img{
+    width: 80px;
+    height:80px;
+    margin-left: 150px; 
+  }
+
+  div.boton input{
+    margin-left: 250px;
+    margin-top:30px
+  }
+  div.boton2 input{
+    margin-left: 100px;
+  }
+
+  div.boton3 input{
+    margin-left: 160px;
+    margin-bottom: 20px; 
+  }
+  div.boton4 input{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  div.ingresa p{
+    margin-left: 20px;
+    margin-top:40px;
+    margin-bottom:10px;
+  }
+  div.contacto img{
+    height: 80px;
+    width: 80px;
+    margin-left: 100px;
+  }
+  textarea{
+    font-family: poppins;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 500px;
+    width: 200;
+    height: 400px;
+  }
+.contacto p{
+  margin-top: 20px;
+ text-align: center;
+}
+div.button5{
+  text-align: center;
+  margin-left: 100px;
+}
+
+
+
+
+
+
