@@ -73,6 +73,14 @@ main{
     background-position: center;
     background-color: #000;
     
+    
+}
+.mb-3{
+    margin-left: 10px;
+    
+}
+.mb-3 h1{
+    text-align: center;
 }
 body{
     width:100%;
