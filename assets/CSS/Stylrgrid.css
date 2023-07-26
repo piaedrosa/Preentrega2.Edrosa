@@ -19,7 +19,9 @@ box-sizing: border-box;
     src: url(../Fonts/Poppins-ExtraBold.ttf);
     font-weight:800;
   }
-
+#emailHelp{
+    color:aliceblue
+}
   .if{
     height: 20em;
 }
@@ -55,6 +57,9 @@ header{
     padding-left: 10px;
     margin-left: 10px;
    
+}
+.btn-primary{
+   Margin-left: 10px;
 }
 
 .form h1{
