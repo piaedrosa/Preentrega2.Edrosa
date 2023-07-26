@@ -126,8 +126,15 @@ footer img{
 border: aliceblue solid 1px;
 
 }
+.quien h1{
+    text-align: center;
+}
+.quien img{
+    height: 400px;
+    width: 300px;
+    padding: 30px
 
-
+}
 
 
 .general{
