@@ -61,6 +61,10 @@ header{
 .btn-primary{
    Margin-left: 10px;
 }
+.row a{
+    color: aliceblue;
+    text-align: center;
+}
 
 .form h1{
     text-align: center;
