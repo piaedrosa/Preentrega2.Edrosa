@@ -37,43 +37,56 @@
 
     <!--Empieza el Main-->  
     <Main>
-    <div class="form-registro" form action="" method="">
+    
     <h1>Registro</h1>
     <legend>¿Qué esperas para ser parte de la comunidad ALL OUT?</legend>
   
   <div class="logo">
     <img src="../assets/img/LOGOS/Imagotipo full color redondo con filete.png" alt=""> </p>
   </div>
-     
-          <label for="Nombre"></label> Nombre
-          <input type="text" name="Nombre" id="Nombre"> 
-          <label for="Apellido"></label> Apellido 
-          <input type="text" name="Apellido" id="Apellido"> <br><br>
-          <label for="Genero"> Genero></label>
+      <form class="registro">
+        <div class="row">
+        <div class="col-sm-4">
+<label for="Nombre"class="form-label"> Nombre</label>
+          <input type="text" name="Nombre" id="Nombre"> </div>
+          <div class="col-sm-4"> <label for="Apellido"> Apellido </label>
+          <input type="text" name="Apellido" id="Apellido">  </div>
+          <div class="col-sm-4"> <label for="DNI">D.N.I.  </label> 
+            <input type="number" > </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12"> <label for="Genero"> Genero></label>
           <input type="radio" name="Genero" id="Femenino" value="Femenino"> Fermenino
           <input type="radio" name="Genero" id="Masculino" value="Masculino"> Masculino
           <input type="radio" name="Genero" id="No Binarie" value="No Binarie"> No Binarie <br><br>
-          <label for="Idioma">Idioma</label>
+          </div>
+          <div class="col-sm-12"> <label for="Idioma">Idioma</label>
           <input type="checkbox" name="Idioma" id="Idioma" value="Ingles"> Ingles
           <input type="checkbox" name="Idioma" id="Idioma" value="Ingles"> Español
-          <input type="checkbox" name="Idioma" id="Idioma" value="Ingles"> Frances <br><br>
-          <label for="email" name="email" id="email"></label> E-Mail
-          <input type="email">
-          <label for="DNI"></label> DNI
-          <input type="number" > <br><br>
-          <label for="usuario">*Usuario</label>
-          <input type="text" name="*Usuario" id="*Usuario">
-          <label for="password">*contraseña</label> 
-          <input type="password"> <br><br><br>
+          <input type="checkbox" name="Idioma" id="Idioma" value="Ingles"> Frances 
+          </div>
+          <div class="row">
+            <div class="col-sm-4"> <label for="email" name="email" id="email">E-Mail</label> 
+          <input type="email"></div>
+          <div class="col-sm-4"> <label for="usuario">*Usuario</label>
+          <input type="text" name="*Usuario" id="*Usuario"> </div>
+          <div class="col-sm-4"><label for="password">*contraseña</label> 
+          <input type="password"> </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
           <Label for="Planificacion">Planificacion</Label>
           <select name="Planificacion" id="Planificacion">
               <option value="Scaled">Scaled</option>
               <option value="Intermediate">Intermediate</option>
               <option value="Elite">Elite</option>
          </select> 
-         <div class="boton4">
+            </div>
+            <div class="row">
+            <div class="col-sm-12">
          <a href="../Login/Login.html"><button type="Registrarme" class="btn btn-primary">Registrarme</button></a>
-      
+            </div>
+            </div>
     </div>
     </form>
   </div>
