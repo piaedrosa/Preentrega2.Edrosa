@@ -1,4 +1,4 @@
-*{ margin: 0;
+|*{ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
@@ -115,11 +115,12 @@ li img{
 footer{
   
     background-color:#044967;
-    
     color:aliceblue;
-   
     padding: 0.5em;
+}
 
+ .footer .row{    
+    --bs-gutter-x:0rem;
     
 
 }
